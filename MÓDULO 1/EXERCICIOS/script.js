@@ -118,6 +118,30 @@ function experiencia(anos) {
   console.log(experiencia(anosEstudo));
 
 
+// 5º exercício
+
+console.log('Exercicio 5');
+
+var usuarios = [
+    {
+        nome: "Diego",
+        habilidades: ["Javascript", "ReactJS", "Redux"]
+    },
+    {
+        nome: "Gabriel",
+        habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+    }
+]
+
+function habilidadesUsuarios() {
+    for (var value of usuarios) {
+        console.log(value.join());
+    }    
+}
+
+habilidadesUsuarios();
+
+
 
 
 
