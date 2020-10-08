@@ -120,6 +120,8 @@ function experiencia(anos) {
 
 // 5º exercício
 
+//Solução: (Não consegui resolver :(  )
+
 console.log('Exercicio 5');
 
 var usuarios = [
@@ -131,11 +133,13 @@ var usuarios = [
         nome: "Gabriel",
         habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
     }
-]
+];
+
+
 
 function habilidadesUsuarios() {
-    for (var value of usuarios) {
-        console.log(value.join());
+    for (usuario of usuarios) {
+        console.log("O " + usuario.nome + " possui as habilidades: " + usuario.habilidades.join(","));
     }    
 }
 
